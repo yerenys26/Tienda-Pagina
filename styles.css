@@ -1,0 +1,153 @@
+* {
+	box-sizing : frontera-box;
+  font-family : Times New Roman;
+}
+
+.body {
+	margin :  0 px ;
+	font-style : white;
+	font-family : Times New Roman;
+}
+
+.button {
+	font-family :  16 px ;
+	text-align : center;
+	border-radius :  8 px ;
+	padding :  10 px  20 px ;
+}
+
+page-nav{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#d3f1f5;
+    border:1px solid #000000;
+    text-align:center;
+    color:#d3f1f5;
+    }
+}
+
+.page-nav  h1 {
+	margen :  30 px ;
+}
+
+.button-checkout {
+	width: 10%;
+	padding: 5px 5px;
+	background-color : grey;
+	color : #d3f1f5;
+	border: 1px solid #000000;
+}
+
+.button-checkout : hover {
+	color de fondo : rosa vivo; /*Rosa*/
+	color : blanco;
+}
+
+.page-content {
+	pantalla : flex;
+	borde :  púrpura sólido de 2 px ;
+	envoltura flexible : envoltura inversa;
+	alineación de texto : izquierda;
+	justificar-contenido : centro;
+}
+
+.producto-contenedor {
+	margen :  15 px ;
+	relleno :  2 px  16 px ;
+	posición : relativa;
+	caja-sombra :  0  4 px  8 px  0  rgba ( 0 ,  0 ,  0 ,  0.2 );
+	color de fondo : blanco;
+}
+
+.product-container : hover {
+	caja-sombra :  0  8 px  16 px  0  rgba ( 0 ,  0 ,  0 ,  0.2 );
+}
+
+.producto-contenedor  img {
+	ancho :  300 px ;
+}
+
+.product-container  h2 {
+	margen inferior :  10 px ;
+	margen izquierdo :  15 px ;
+}
+
+.button {
+	background : white;
+	color : black;
+	border-color :  hot pink solid 2 px ; /*Pink*/
+	duración de la transición :  0,4 s ;
+	posición : absoluta;
+	right :  15 px ;
+	abajo :  10 px ;
+}
+
+.button : hover {
+	background : #a486f0; /*Purple*/
+	color : white;
+}
+
+.main-header__title {
+	font : blue ;
+    color :  #4FB4E3 ;
+    padding :  50px ;
+    text-align : center;
+    font-size :  2em ;
+    margin :  10px  0 ;
+    font-weight : negrita;
+    text-transform : capital;
+}
+
+.ul {
+    text-align : center;
+  tipo de estilo de lista : ninguno;
+  border :  1 px negro sólido;
+  margin :  0 ;
+  acolchado :  0 ;
+ desbordamiento : oculto;
+color de fondo :  #465362 ;
+}
+.li {
+  flotar : center;
+  borde derecho : 1 px sólido #000000 ;
+}
+.li  a {
+  pantalla : block;
+  color : white;
+  text-align: center;
+  padding :  21 px  32 px ;
+  text-decoration : none;
+}
+.li  a : hover {
+  color de fondo :  #C52184 ;
+}
+
+.p {
+	font-family : Georgia;
+}
+
+.h1 {
+	color : morado;
+}
+
+.div .campos {
+	ancho :  100 % ;
+	margen inferior :  20 px ;
+	text-align : center;
+}
+
+.seleccione {
+	margen derecho :  10 px ;
+	ancho :  200 px ;
+	margen inferior :  20 px ;
+}
+
+.footer {
+	text-align : center;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html >
+<html  lang = " es " >
+<head>
+   <meta  charset = " utf-8 " >
+   <título > </título >
+   <link  rel = " stylesheet " href = " styles.css " >
+   <script  src = " scripts.js " > </script >
+   <link rel ="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body bgcolor="#A4EDE7">
+   <div  class = "page-nav" >
+      <h1  class = " main-header__title" > BISOVY STORE </h1>
+      <button  id = "checkout" class ="button-checkout" onclick ="pay () " > <i  class = " fa fa-shopping-cart " aria-hidden = " true " > </i > Pagar </button >
+   </div>
+   <div align="center">
+   <div  class = " menú " >
+     <ul >
+         <Li > <a class = " Inicio " href =" index.html " >Inicio</a ></Li>
+         <Li > <a href = "" > Descripción </a ></Li>
+         <Li > <a href = " formulario.html " > Formulario </a ></Li>
+         <Li > <a href = " factura.html " > Factura </a ></Li>
+      </ul >
+     </div>
+     <div align="left">
+     <h1 > Descripción de productos </h1 >
+     </div>
+     <div class="Contenido">
+    <div class="producto-contenedor">
+      <h4> Elasti-curl </h4>
+      <img src="elasticurl.jpg"/>
+      <h3> $50 </h3>
+      <p><h4><small>Crema modeladora para el styling del cabello ondulado y rizado, con efecto anti-encrespamiento. Define los mechones dejando el rizo suave y elástico, también en caso de clima húmedo. No pesa el cabello y no deja residuos.</small></h4></p>
+      <p><h4><small> Beneficios: Enriquecido con fito-aceites que preservan la hidratación del cabello durante el peinado, ayudnado a crear mechones definidos y ligeros, sin dejar residuos. </small></h4></p>
+      <button class="button-add"onclick="add ('elasticurl', 50) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Rebuild </h4>
+      <img src="rebuild.jpg"/>
+      <h3> $47 </h3>
+      <p><h4><small>Tiene una fórmula con un ph más básico que el del cabello, para facilitar la apertura de las escamas, rica en ingredientes capaces de penetrar en profundidad y reparar la corteza capilar desde el interior.</small></h4></p>
+      <p><h4><small> Beneficios: Rebuild es una nueva línea, rica en ingredientes de origen natural que ayudan a restaurar la integridad de la fibra capilar y su contenido prótéico, mejorando el brillo, la peinabilidad y la elasticidad. </small></h4></p>
+      <button class="button-add"onclick="add ('rebuild', 47) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Dry Hair </h4>
+      <img src="dryhair.jpg">
+      <h3> $55 </h3>
+      <p><h4><small>Un champú para cabellos secos y frágiles, ejerce una acción nutritiva y reparadora desde la raíz hasta las puntas. Ofrece una reparación profunda de la fibra, para cabellos fuertes y nutridos..</small></h4></p>
+      <p><h4><small> Beneficios: El cabello se ve más suave, desde la raíz hasta las puntas. Restituye al cabello elasticidad y flexibilidad. Restablece el brillo del cabello, haciendo resaltar su esplendor.</small></h4></p>
+      <button class="button-add"onclick="add ('dryhair', 55) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Daily-use </h4>
+      <img src="dailyuse.jpg">
+      <h3> $40 </h3>
+      <p><h4><small>Champú adecuado para lavados frecuentes, gracias a su fórmula delicada. Devuelve la vitalidad al cabello dejándolo brillante y suave.</small></h4></p>
+      <p><h4><small> Beneficios: Protege el nivel natural de hidratación del cabello. Aumenta la fuerza de la fibra capilar y nutre el cabello hasta la raíz, aportando la mpaxima luminosidad y brillo.</small></h4></p>
+      <button class="button-add"onclick="add ('dailyuse', 40) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Antioxidant </h4>
+      <img src="antioxidant.jpg">
+      <h3> $49 </h3>
+      <p><h4><small>Champú adecuado para todo tipo de cabello. Cumple una acción antioxidante contra los efectos nocivos de los radicales libres.</small></h4></p>
+      <p><h4><small> Beneficios: Protege la fibra capilar de las agresiones externas. El betacaroteno protege el cabello de los agentes atmosféricos contaminantes. </small></h4></p>
+      <button class="button-add"onclick="add ('antioxidant', 49) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Damaged hair </h4>
+      <img src="damagedhair.jpg">
+      <h3> $75 </h3>
+      <p><h4><small>Champú de acción reparadora, gracias a su fórmula con activos nutritivos alisa la fibra capilar haciéndola más brillante.</small></h4></p>
+      <p><h4><small> Beneficios: Refuerza el bulbo capilar. Otorga brillo, elasticidad y volumen.</small></h4></p>
+      <button class="button-add"onclick="add ('damagedhair', 75) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Anti-Frizz </h4>
+      <img src="antifrizz.jpg">
+      <h3> $38 </h3>
+      <p><h4><small>Un champú con la consistencia de una cera, práctico de dosificar y aplicar, que limpia suavemente los cabellos rizados y ondulados, naturales o con permanente. Su fórmula hidratante elimina eficazmente el sebo y las impurezas, dejando el cabello suave y ligero. Ideal para todo tipo de rizos, de la categoría 2 a la 4. Para los cabellos de la categoría 4, que suelen ser más porosos, puede ser necesaria una aplicación adicional.</small></h4></p>
+      <p><h4><small> Beneficios: Enriquecido con fito-aceites de acción nutritiva y acondicionadora, que facilitan el lavado y dejan el cabello suave e hidratado, listo para el siguiente paso. </small></h4></p>
+      <button class="button-add"onclick="add ('antifrizz', 38) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Colored hair </h4>
+      <img src="coloredhair.jpg">
+      <h3> $43 </h3>
+      <p><h4><small>Champú específicamente estudiado para cabellos teñidos o con mechas, para proteger la fibra capilar de las agresiones externas</small></h4></p>
+      <p><h4><small> Beneficios: Nutre intensamente el cabello, protegiendo y prolongando la duración del color. </small></h4></p>
+      <button class="button-add"onclick="add ('coloredhair', 43) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Volumizing </h4>
+      <img src="volumizing.jpg">
+      <h3> $38 </h3>
+      <p><h4><small>Champú recomendado para cabellos finos, para otorgarles cuerpo y volumen.</small></h4></p>
+      <p><h4><small> Beneficios: El cabello queda más suave, con cuerpo y ligero desde la raíz hasta las puntas. </small></h4></p>
+      <button class="button-add"onclick="add ('volumizing', 38) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Sensitive </h4>
+      <img src="sensitive.jpg">
+      <h3> $60 </h3>
+      <p><h4><small>Champú para cuero cabelludo sensible, con una fórmula altamente compatible, para resguardar tambien el cuero cabelludo más sensible..</small></h4></p>
+      <p><h4><small> Beneficios: Este champú sumamente delicado es adecuado para toda la familia, inclusio para los niños. Particularmente indicado para un uso frecuente, respeta el natural equilibrio hidrolipídico del cuero cabelludo </small></h4></p>
+      <button class="button-add"onclick="add ('sensitive', 60) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+    <div class="producto-contenedor">
+      <h4> Lenitive </h4>
+      <img src="lenitive.jpg">
+      <h3> $49 </h3>
+      <p><h4><small>Champú dermo-lenitivo, con una fórmula sumamente dermocompatible, para ayudar a calmar el cuero cabelludo irritado.</small></h4></p>
+      <p><h4><small> Beneficios: Acción hidratante intensiva, calmante y reequilibrante para el cuero cabelludo irritado. Deja el cabello suave y sedoso. </small></h4></p>
+      <button class="button-add"onclick="add ('lenitive', 49) " > <i  class ="fa fa-plus" aria-hidden ="true"></i>Agregar</button>
+    </div>
+  </div>
+  </div>
+   
+   <footer  class = "footer">
+          <div  class = " contenedor de texto-centro " ><a class =" cc-facebook BTN BTN-link " href =" # " > <i  clase =" fa fa-facebook " aria-oculta =" verdad " > </i > </a > <a clase = " cc-instagram BTN BTN-link " href =" # " > <i  clase = "fa fa-instagram " aria-hidden =" true " > </i > </a> 
+          </div >
+      <div  class = " h4 title text-center " > Yerenys Quintero </div >
+      <div  class = " text-center text-muted " ></div>
+        <p > &copy; Hecho por Yerenys Quintero, 8-992-1243 <br></p>
+    </footer>
+
+</body >
+</html >
